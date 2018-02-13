@@ -1,0 +1,433 @@
+/***** Default *****/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+* {
+    box-sizing: border-box;
+}
+
+/***** Custom *****/
+
+#pageContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***** Nav *****/
+
+.firstHeader {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #b8bbcc;
+    background-color: #000;
+    }
+
+.firstHeader ul {
+    display: inline-block;
+    float: left;
+    list-style-type: none;
+}
+
+.firstHeader li {
+    display: inline-block;
+    margin-left: 25px;
+    line-height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100px;
+    color: #b8bbcc;
+}
+
+.firstHeader a {
+    text-decoration: none;
+    color: #b8bbcc;
+}
+
+.firstHeader a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navImage img {
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    padding-right: 8px;
+    margin-left: 180px;
+    float: left;
+}
+
+.listGames a.anchorGames {
+    color: #fff;
+    text-shadow: 3px 2px 5px #fff;
+}
+
+.listGames i {
+    color: #b8bbcc;
+    text-shadow: none;
+}
+
+.listGames i:hover {
+    color: #fff;
+}
+
+.secondList {
+    margin-left: 45%;
+}
+
+/***** Header *****/
+
+.headerContainer {
+    height: 800px;
+    position: relative;
+    background-image: no-repeat;
+}
+
+.headerContainer img {
+    height: 800px;
+    width: 100%;
+}
+
+.topHeader {
+    height: 60px;
+    width: 80%;
+    position: absolute;
+    top: 35px;
+    margin: 0 10%;
+    border-radius: 4px;
+    opacity: .8;
+    background-color: #273751;
+    border: 1px solid #4286f4;
+}
+
+li .starCraft {
+    padding-left: 30px;
+}
+
+li.starCraft img {
+    display: inline-block;
+    height: 58px;
+    width: 90px;
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+
+.headerListOne li {
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+    bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headerListOne li a {
+    color: #ccebff;
+    text-decoration: none;
+}
+
+.headerListOne li a:hover {
+    color: #ffffff;
+}
+
+.headerListTwo li {
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+    bottom: 43px;
+    padding-right: 20px;;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.headerListTwo li a{
+    text-decoration: none;
+    color: #ccebff;
+}
+
+.headerListTwo li a:hover {
+    color: #ffffff;
+}
+
+.headerListTwo .playNowButton {
+    height: 60px;
+    background: linear-gradient(#1F1210, #5E3C02);
+    border: 2px solid #7F5F13;
+    position: relative;
+    bottom: 65px;
+    left: 1px;
+    float: right;
+}
+
+.headerListTwo .playNowButton:hover {
+   box-shadow: 0 0 20px #ddd;
+}
+
+.headerListTwo .playNowButton a {
+    color: #D2BF9B;
+    position: relative;
+    top: 63px;
+    right: 5px;
+}
+
+.lowerHeaderSection {
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 460px;
+}
+
+.lowerHeaderOne {
+    display: inline-block;
+    background: linear-gradient(#1F1210, #5E3C02);
+    padding: 10px 0;
+    margin-right: 50px;
+    border-radius: 3.5px;
+    border: 4px solid orange;
+    box-shadow: 0 0 20px #ddd;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lowerHeaderOne a {
+    color: #D2BF9B;
+    padding: 20px 45px;
+    text-decoration: none;
+}
+
+.lowerHeaderOne a:hover {
+    color: #fff;
+    padding: 20px 45px;
+    box-shadow: 0px 0px 30px #ddd;
+    text-decoration: none;
+}
+
+.lowerHeaderTwo {
+    display: inline-block;
+    background: linear-gradient(#061625, #02305F);
+    padding: 10px 0;
+    border-radius: 3.5px;
+    border: 4px solid #007acc;
+    box-shadow: 0 0 20px #ddd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lowerHeaderTwo a {
+    color: #ccebff;
+    padding: 20px 45px;
+    text-decoration: none;
+}
+
+.lowerHeaderTwo a:hover {
+    color: #fff;
+    padding: 20px 45px;
+    box-shadow: 0px 0px 30px #ddd;
+    text-decoration: none;
+}
+
+/***** First Section *****/
+
+.sectionContainerOne {
+    height: 2400px;
+    position: relative;
+    background-image: no-repeat;
+    border-top: 1px solid #ccebff;
+}
+
+.sectionMainImageOne img {
+    display: block;
+    height: 1200px;
+    width: 100%;
+    border-bottom: 1px solid #ccebff;
+}
+
+.sectionOneTopP p {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sectionOneMidText {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 850px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gameplayText p {
+    color: #7490A9;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.playitText p {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.sectionOneMidP p {
+    padding-top: 25px;
+    color: #7B8A93;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/***************************************************/
+/* .sectionOneWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
+    /* grid-auto-rows: 100px; */
+    /* grid-auto-rows: minmax(100px, auto);
+ } */
+
+.sectionOneRow  {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 208px;
+    justify-content: center;
+    opacity: .8;
+}
+
+/* .sectionOneRow div {
+    padding: 10px;
+    margin: 4px;
+    flex-basis: 20%;
+    border: 1px solid #4286f4;
+    border-radius: 10px;
+    background: #273751;
+} */
+
+.sectionOneContainer {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+    border: 1px solid #4286f4;
+    /*  border: 1px solid #4286f4; */
+    box-shadow: 0 0 20px #ddd;
+    background-color: #273751;
+/*  background: linear-gradient(#061625, #02305F); */
+    -moz-box-shadow:    inset 0 0 10px #fff;
+    -webkit-box-shadow: inset 0 0 10px #fff;
+    box-shadow:         inset 0 0 10px #fff;
+}
+
+.sectionOneTerranImg img {
+    width: 337px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.sectionOneTossImg img {
+    width: 337px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.sectionOneZergImg img {
+    width: 337px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.sectionOneContainer h2 {
+    width: 337px;
+    position: absolute;
+    bottom: 180px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    /* background: green; */
+}
+
+.sectionOneContainer p {
+/*     display: block; */
+    width: 337px;
+    position: absolute;
+    bottom: 60px;
+    /* color: #7B8A93; */
+    color: #b0c1cf;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    /* background: red; */
+}
+
+.sectionOneFooter {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute ;
+    bottom: 100px;
+}
+
+.sectionOneFooter p {
+    display: inline-block;
+    color: #b0c1cf;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sectionOneFooterLearn {
+    display: inline-block;
+    padding: 10px 25px;
+    position: absolute;
+    bottom: -10px;
+    right: 390px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3.5px;
+    border: 4px solid #007acc;
+    background: linear-gradient(#061625, #02305F);
+}
+
+.sectionOneFooterLearn a {
+    color: #ccebff;
+    text-decoration: none;
+}
+
+.sectionOneFooterLearn a:hover {
+    color: #fff;
+    box-shadow: 0px 0px 30px #ddd;
+}
+
+/***** Second Section *****/
+
+/***** Third Section *****/
+
+/***** Fourth Section *****/
+
+/***** Fifth Section *****/
+
+/***** Footer *****/
