@@ -318,15 +318,6 @@ li.starCraft img {
     opacity: .8;
 }
 
-/* .sectionOneRow div {
-    padding: 10px;
-    margin: 4px;
-    flex-basis: 20%;
-    border: 1px solid #4286f4;
-    border-radius: 10px;
-    background: #273751;
-} */
-
 .sectionOneContainer {
     padding: 10px;
     margin: 4px;
@@ -424,10 +415,55 @@ li.starCraft img {
 
 /***** Second Section *****/
 
+.sectionContainerTwo {
+    height: 800px;
+    position: relative;
+    background-image: no-repeat;
+}
+
+.sectionContainerTwo img {
+    display: block;
+    height: 800px;
+    width: 100%;
+    background-image: no-repeat;
+    border-bottom: 1px solid #ccebff;
+    border-top: 1px solid #ccebff;
+}
+
+.sectionTwoTop {
+    width: 840px;
+    padding: 10px;
+    margin-left: 531.5px;
+    margin-right: 531.5px;
+    position: absolute;
+    top: 40px;
+    opacity: .8;
+    border-radius: 10px;
+    border: 1px solid #4286f4;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #273751;
+}
+
+.sectionTwoPOne {
+    color: #7490A9;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.sectionTwoPTwo {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.sectionTwoPThree {
+    padding-top: 25px;
+    color: #7B8A93;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 /***** Third Section *****/
-
-/***** Fourth Section *****/
-
-/***** Fifth Section *****/
 
 /***** Footer *****/
