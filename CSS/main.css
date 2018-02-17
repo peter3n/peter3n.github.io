@@ -170,7 +170,7 @@ li.starCraft img {
     background: linear-gradient(#1F1210, #5E3C02);
     border: 2px solid #7F5F13;
     position: relative;
-    bottom: 65px;
+    bottom: 64px;
     left: 1px;
     float: right;
 }
@@ -379,24 +379,21 @@ li.starCraft img {
     font-family: 'Open Sans', sans-serif;
 }
 
-.sectionOneFooterButton p {
+.sectionOneFooterButton a {
     display: inline-block;
+    padding: 10px 25px;
     position: absolute;
     bottom: -10px;
     right: 390px;
+    color: #ccebff;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
     border-radius: 3.5px;
     border: 4px solid #007acc;
     background: linear-gradient(#061625, #02305F);
 }
 
-.sectionOneFooterButton p {
-    padding: 10px 25px;
-    color: #ccebff;
-    text-decoration: none;
-}
-
-.sectionOneFooterButton p:hover {
+.sectionOneFooterButton a:hover {
     color: #fff;
 }
 
@@ -483,6 +480,7 @@ li.starCraft img {
 }
 
 .sectionTwoFirstImg img, .sectionTwoSecondImg img, .sectionTwoThirdImg img {
+    display: block;
     height: 350px;
     width: 480px;
 }
@@ -501,22 +499,92 @@ li.starCraft img {
    font-weight: bold;
 }
 
-.sectionTwoFooterButton p {
+.sectionTwoFooterButton a {
     display: inline-block;
     padding: 10px 25px;
     position: absolute;
     bottom: -17px;
     right: 400px;
     color: #ccebff;
+    text-decoration: none;
     border-radius: 3.5px;
     border: 4px solid #007acc;
     background: linear-gradient(#061625, #02305F);
 }
 
-.sectionTwoFooterButton p:hover {
+.sectionTwoFooterButton a:hover {
     color: #fff;
 }
 
 /***** Third Section *****/
+
+.sectionContainerThree {
+    height: 850px;
+    position: relative;
+    background-image: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sectionContainerThree img {
+    display: block;
+    height: 850px;
+    width: 100%;
+}
+
+.sectionThreeTop {
+    position: absolute;
+    top: 160px;
+    left: 250px;
+}
+
+.sectionThreePOne p {
+    padding-top: 25px;
+    color: #FBC34F;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.sectionThreePTwo p {
+    color: #FDFFFC;
+    font-size: 3em;
+}
+
+.sectionThreePThree p {
+    color: #3671fc;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.sectionThreeButton {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 340px;
+}
+
+.sectionThreeButton a {
+    display: block;
+    text-decoration: none;
+}
+
+.sectionThreeButtonOne li {
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+}
+
+.sectionThreeButtonOne a:hover {
+    color: red;
+}
+
+.sectionThreeButtonTwo li {
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+}
+
+.sectionThreeButtonTwo a:hover {
+    color: red;
+}
 
 /***** Footer *****/
