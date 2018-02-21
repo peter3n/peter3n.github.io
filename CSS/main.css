@@ -654,8 +654,18 @@ li.starCraft img {
     background: #000;
 }
 
+.footerLanguageSelect p a {
+    color: #06A6F1;
+    font-size: ;
+    padding: 0 5px;
+}
+
+.footerLanguageSelect p a:hover {
+    color: #fff;
+}
+
 .footerImgOne img {
-    padding-top: 20px;
+    margin-top: 20px;
     height: 80px;
     width: 145px;
 }
